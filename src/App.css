@@ -32,7 +32,152 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+.container {
+  position: relative;  
+  background: #FFFFFF;
+  padding-bottom: 50px;
+}
+.main-container {
+  position: relative;  
+  background: #FFFFFF;
+  padding-bottom: 50px;
+}
+.nav--title {
+  background-color: #F55A5A;
+  padding: 4px;
+  position: relative;
+  top: 0px;
+}
+
+.nav--headerTitle {
+  padding: 10%;
+  align-items: center;
+  color: white;
+}
+
+.nav--icon {
+  width: 24px;
+  height: 24px;
+  left: calc(50% - 24px/2 - 50px);
+  top: calc(50% - 24px/2 - 324px);
+
+  background: #DADADA;
+}
+
+.travel-container {
+  position: absolute;
+  width: 470px;
+  height: 252px;
+  left: 40px;
+  top: -110px;
+
+}
+
+.travelcard--image {
+  position: absolute;
+  width: 125px;
+  height: 168px;
+  left: 40px;
+  top: 100px;
+  border-radius: 5px;
+}
+
+.travel--inner {
+  position: relative;
+  width: 470px;
+  height: 168px;
+  left: 40px;
+  top: 100px;
+  margin-bottom: 15px;
+}
+
+.travel-country {
+  position: relative;
+  width: 40px;
+  height: 10px;
+  left: 195px;
+  top: 119px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+
+  color: #2B283A;
+}
+
+.travel-view {
+  position: relative;
+  width: 106px;
+  height: 13px;
+  left: 247px;
+  top: 119px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  /* identical to box height */
+
+  text-decoration-line: underline;
+
+  color: #918E9B;
+}
+
+.travel-mountain {
+  position: absolute;
+  width: 326px;
+  height: 40px;
+  left: 184px;
+  top: 136px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #2B283A;
+}
+
+.travel-date {
+  position: absolute;
+  width: 319px;
+  height: 11px;
+  left: 184px;
+  top: 183px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+
+  color: #2B283A;
+}
+
+.travel-description {
+  position: absolute;
+  width: 326px;
+  height: 45px;
+  left: 184px;
+  top: 203px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+
+
+  color: #2B283A;
 }
